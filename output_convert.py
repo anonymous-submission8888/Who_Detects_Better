@@ -99,10 +99,9 @@ def convert_markdown_to_csv_four_columns(txt_file, csv_file, encoding='utf-8'):
     except Exception as e:
         print(f"错误：无法写入 CSV 文件。{e}")
 
-# 示例使用方式
 if __name__ == "__main__":
-    txt_file = r"C:\Users\chou\Downloads\Jan 11, 2025 08-51-02 PM Conversation with ChatGPT.md"  # 输入的文本文件路径
-    csv_file = r"C:\Users\chou\Desktop\5.csv"  # 输出的 CSV 文件路径
+    txt_file = r"Conversation with ChatGPT.md"  # 输入的文本文件路径
+    csv_file = r"5.csv"  # 输出的 CSV 文件路径
     encoding = 'utf-8'  # 根据实际文件编码修改
 
     convert_markdown_to_csv_four_columns(txt_file, csv_file, encoding)

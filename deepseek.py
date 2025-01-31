@@ -5,7 +5,7 @@ import time
 import json
 
 # **1. 设置您的 API 密钥（直接在代码中设置）**
-API_KEY = '12345'  # 替换为您的实际 API 密钥
+API_KEY = '1'  # 替换为您的实际 API 密钥
 
 # **2. 配置 SDK**
 genai.configure(api_key=API_KEY)
@@ -26,8 +26,8 @@ template = '''
 '''
 
 # **5. 读取 CSV 文件**
-input_csv = 'C:/Users/chou/Desktop/1.csv'  # 替换为您的 CSV 文件路径
-output_csv = 'C:/Users/chou/Desktop/5.csv'  # 输出文件路径
+input_csv = '1.csv'  # 替换为您的 CSV 文件路径
+output_csv = '5.csv'  # 输出文件路径
 
 try:
     df = pd.read_csv(input_csv, encoding='gbk')

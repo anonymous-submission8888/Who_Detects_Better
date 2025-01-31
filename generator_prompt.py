@@ -119,7 +119,7 @@ def read_csv_file(file_path, start_row=1):
 if __name__ == "__main__":
     sleep(5)  # 延迟 5 秒执行，请在 5 秒内打开活动窗口！
     # 读取文件
-    csv_file_path = 'C://Users//chou//Desktop//1.csv'
+    csv_file_path = '1.csv'
     start_row = 1  # 设置从第 1 行开始处理，可以根据需要修改
     read_csv_file(csv_file_path, start_row)
 

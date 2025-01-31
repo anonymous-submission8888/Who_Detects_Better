@@ -53,7 +53,7 @@ def read_csv_file(file_path):
 
 
 # 配置Gemini API
-GEMINI_API_KEY = '1234'  # 直接在代码中设置您的Gemini API密钥
+GEMINI_API_KEY = '1'  # 直接在代码中设置您的Gemini API密钥
 API_URL = f'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}'
 
 # 定义请求头
@@ -147,8 +147,8 @@ def split_into_batches(lst, batch_size):
 # 主函数
 def main():
     # 配置文件路径
-    input_csv = 'C:/Users/chou/Desktop/1.csv'  # 替换为你的CSV文件路径
-    output_csv = 'C:/Users/chou/Desktop/5.csv'  # 输出文件路径，去掉外层双引号
+    input_csv = '1.csv'  # 替换为你的CSV文件路径
+    output_csv = '5.csv'  # 输出文件路径，去掉外层双引号
 
     # 读取CSV文件，指定编码格式
     df = read_csv_file(input_csv)
